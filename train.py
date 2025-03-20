@@ -14,7 +14,7 @@ from torchmetrics import MeanAbsoluteError, MeanSquaredError, R2Score
 
 from configs.PROBLEM_CONFIG import target_list_parser, target_shorter, seeds
 from dataset import ClimatePhenoDataset, get_matching_indices
-from models.architecture import PhenoFormer
+from model.architecture import PhenoFormer
 
 
 class LitModel(pl.LightningModule):
