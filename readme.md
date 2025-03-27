@@ -77,8 +77,8 @@ So in each subdirectory you will find one result file per fold with the followin
 The result files contain all the values of the different hyperparameters as well as the performance metrics on the train, validation, and test sets. 
 
 ## 2. Pre-trained weights and demo notebook 
-You can find pre-trained weights of different variants of PhenoFormer in the `pre-trained-weights` folder. 
-The jupyter notebook `demo.ipynb` will guide you through the process of loading those weights and making predictions. 
+You can find pre-trained weights of different variants of PhenoFormer in the [`pre-trained-weights`](https://github.com/VSainteuf/PhenoFormer/tree/main/pre-trained-weights) folder. 
+The jupyter notebook [`demo.ipynb`](https://github.com/VSainteuf/PhenoFormer/blob/main/demo.ipynb) will guide you through the process of loading those weights and making predictions. 
 
 ## 3. Traditional machine learning baselines 🪛
 
