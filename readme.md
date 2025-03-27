@@ -76,7 +76,11 @@ The scripts will execute the 40 runs for each configuration by default.
 So in each subdirectory you will find one result file per fold with the following name `run_summary_foldX.json` .
 The result files contain all the values of the different hyperparameters as well as the performance metrics on the train, validation, and test sets. 
 
-## 2. Traditional machine learning baselines 🪛
+## 2. Pre-trained weights and demo notebook 
+You can find pre-trained weights of different variants of PhenoFormer in the `pre-trained-weights` folder. 
+The jupyter notebook `demo.ipynb` will guide you through the process of loading those weights and making predictions. 
+
+## 3. Traditional machine learning baselines 🪛
 
 The present repository also contains the code to reproduce the results of the traditional machine learning baselines. 
 
@@ -87,10 +91,10 @@ To do so use the `run-traditional-ml-baselines.py` script and follow these steps
 4. Activate the proper python environement and run the script.
 
 
-## 3. Process-based models 🔃
+## 4. Process-based models 🔃
 In addition, we provide the R scripts used to evaluate the performance of process-based models used in our study (see the `/process-based-models` subfolder and associated readme file) .
 
-## 4. Full results of the article 🔢
+## 5. Full results of the article 🔢
 We also provide the complete and detailed numerical results used in the paper (`results/full_results.csv`). 
 
 
