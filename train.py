@@ -53,6 +53,15 @@ class LitModel(pl.LightningModule):
     def forward(self, batch):
         y_hat = self.backbone(batch)
         return y_hat
+    
+    def predict_unnormalised_dates(self, batch):
+        y_hat = self.forward(batch=batch)
+        for t in self.target_list:
+            normalised_prediction = y_hat[t]
+            mean, std = self.target_scaler[t]
+            unnormalised_prediction = normalised_prediction * std + mean
+            y_hat[t] = unnormalised_prediction
+        return y_hat
 
     def meter_forward(self, predictions, targets, select_dim=None):
         values = {
