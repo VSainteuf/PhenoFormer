@@ -5,7 +5,7 @@
 
 
 
-This repository contains the code to reproduce the results presented in the article *Deep learning meets tree phenology modeling: PhenoFormer vs. process-based models*, Garnot et al. published in Methods in Ecology and Evolution. 
+This repository contains the code to reproduce the results presented in the article [*Deep learning meets tree phenology modeling: PhenoFormer vs. process-based models*, Garnot et al.](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70037) published in Methods in Ecology and Evolution. 
 
 <div style="background-color: #f9f9f9; padding: 15px; border-left: 4px solid #007acc; font-style: italic; font-size: 14px; line-height: 1.5;">
 
@@ -55,6 +55,7 @@ For the deep learning scripts, we recommend using a machine with GPU to have rea
   </div>
 </div>
 
+(*Check the related [journal article](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70037) for more technical details.*) 
 There are four scripts to run the different configurations of PhenoFormer:
 - `run-phenoformer-singlespecies-spring.py` to train the single-species PhenoFormer for spring phenology (variant (a) in Table 6)
 - `run-phenoformer-multispecies-spring.py` to train the multi-species variants of PhenoFormer for spring phenology (variants (b->e) in Table 6)
@@ -100,7 +101,7 @@ We also provide the complete and detailed numerical results used in the paper (`
 
 ## 📯 Credits 
 
-To cite this work please use:
+To cite this [work](https://besjournals.onlinelibrary.wiley.com/doi/full/10.1111/2041-210X.70037) please use:
 ```bibtex
 @article{phenoformer2025,  
   title={Deep learning meets tree phenology modeling: PhenoFormer vs. process-based models},  
